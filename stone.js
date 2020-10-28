@@ -11,7 +11,7 @@ constructor(x,y){
         this.r=30;
         this.x=x;
         this.y=y;
-        this.image=loadImage("Plucking mangoes/stone.png");
+        this.image=loadImage("stone.png");
 }
         display(){
        var p=this.body.position;
