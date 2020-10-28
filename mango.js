@@ -11,7 +11,7 @@ this.body=Matter.Bodies.circle(x,y,r,options);
 this.r=r;
 this.x=x;
 this.y=y;
-this.image=loadImage("Plucking mangoes/mango.png");
+this.image=loadImage("mango.png");
 World.add(world,this.body);
 }
 display(){
